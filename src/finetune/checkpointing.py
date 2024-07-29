@@ -155,7 +155,7 @@ class Checkpointer:
             modules = {
                 k: m for k, m in self.model.named_modules() if is_trainable_fsdp(m)
             }
-
+            print(f"\n####################\n{list(modules.keys())}\n####################")
             states = {}
             for key, module in modules.items():
                 assert isinstance(
