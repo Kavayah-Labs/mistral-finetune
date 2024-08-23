@@ -1,0 +1,115 @@
+wandb_version: 1
+
+data:
+  desc: null
+  value:
+    data: ''
+    shuffle: false
+    instruct_data: /mnt/lawbotica-disk-1/datasets/S_T_merged_AnnualReports/train.jsonl
+    eval_instruct_data: /mnt/lawbotica-disk-1/datasets/S_T_merged_AnnualReports/eval.jsonl
+    instruct:
+      shuffle: true
+      dynamic_chunk_fn_call: true
+model_id_or_path:
+  desc: null
+  value: /mnt/lawbotica-disk-1/models/MISTRAL_BASE_MODEL/7B-Instruct-v0.3
+run_dir:
+  desc: null
+  value: /mnt/lawbotica-disk-1/runs/S_T_merged_AnnualReports
+optim:
+  desc: null
+  value:
+    lr: 6.0e-05
+    weight_decay: 0.1
+    pct_start: 0.05
+seed:
+  desc: null
+  value: 0
+num_microbatches:
+  desc: null
+  value: 1
+seq_len:
+  desc: null
+  value: 8192
+batch_size:
+  desc: null
+  value: 1
+max_norm:
+  desc: null
+  value: 1.0
+max_steps:
+  desc: null
+  value: 800
+log_freq:
+  desc: null
+  value: 1
+ckpt_freq:
+  desc: null
+  value: 50
+save_adapters:
+  desc: null
+  value: true
+no_ckpt:
+  desc: null
+  value: false
+num_ckpt_keep:
+  desc: null
+  value: 16
+eval_freq:
+  desc: null
+  value: 50
+no_eval:
+  desc: null
+  value: false
+checkpoint:
+  desc: null
+  value: true
+world_size:
+  desc: null
+  value: 2
+wandb:
+  desc: null
+  value:
+    project: Mistral_Instruct_v3_FineTune
+    offline: false
+    key: 04701df3f9d402afad4d24509f65ce9095e7de5c
+    run_name: test-Summarization-Timelines-merged
+mlflow:
+  desc: null
+  value:
+    tracking_uri: null
+    experiment_name: null
+lora:
+  desc: null
+  value:
+    enable: true
+    rank: 64
+    dropout: 0.0
+    scaling: 2.0
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.14
+    cli_version: 0.17.6
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1724222785
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 2
+      - 13
+      - 16
+      - 23
+      - 61
+      4: 3.10.14
+      5: 0.17.6
+      8:
+      - 5
+      13: linux-x86_64

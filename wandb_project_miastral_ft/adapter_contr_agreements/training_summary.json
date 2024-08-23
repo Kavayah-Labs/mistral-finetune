@@ -1,0 +1,16 @@
+{
+    "_runtime": 26453.976006031036,
+    "_step": 1675,
+    "_timestamp": 1723484825.071317,
+    "eval/eval_loss": 0.2421937733888626,
+    "eval/perplexity": 1.1827898025512695,
+    "eval/train_loss": 0.17146112024784088,
+    "train/allocated_mem": 8.13978385925293,
+    "train/avg_wps": 519.8768090641344,
+    "train/eta_in_seconds": 11424.24492966239,
+    "train/loss": 0.24087455868721008,
+    "train/lr": 0.00001376515692447808,
+    "train/peak_allocated_mem": 13.729666233062744,
+    "train/percent_done": 69.79166666666667,
+    "train/wps": 635.0656451988016
+  }

@@ -1,0 +1,151 @@
+{
+    "data": {
+      "desc": null,
+      "value": {
+        "data": "",
+        "shuffle": false,
+        "instruct": {
+          "shuffle": true,
+          "dynamic_chunk_fn_call": true
+        },
+        "instruct_data": "/mnt/lawbotica-disk-1/datasets/S_ContrAgreements/train.jsonl",
+        "eval_instruct_data": "/mnt/lawbotica-disk-1/datasets/S_ContrAgreements/eval.jsonl"
+      }
+    },
+    "lora": {
+      "desc": null,
+      "value": {
+        "rank": 16,
+        "enable": true,
+        "dropout": 0,
+        "scaling": 2
+      }
+    },
+    "seed": {
+      "desc": null,
+      "value": 0
+    },
+    "optim": {
+      "desc": null,
+      "value": {
+        "lr": 0.00006,
+        "pct_start": 0.05,
+        "weight_decay": 0.1
+      }
+    },
+    "wandb": {
+      "desc": null,
+      "value": {
+        "key": "04701df3f9d402afad4d24509f65ce9095e7de5c",
+        "offline": false,
+        "project": "Mistral_Instruct_v3_FineTune",
+        "run_name": "test-S-ContrAgreements"
+      }
+    },
+    "_wandb": {
+      "desc": null,
+      "value": {
+        "t": {
+          "1": [
+            1,
+            55,
+            105
+          ],
+          "2": [
+            1,
+            55,
+            105
+          ],
+          "3": [
+            13,
+            16,
+            23,
+            61
+          ],
+          "4": "3.10.14",
+          "5": "0.17.5",
+          "8": [
+            5
+          ],
+          "13": "linux-x86_64"
+        },
+        "framework": "torch",
+        "start_time": 1723458371,
+        "cli_version": "0.17.5",
+        "is_jupyter_run": false,
+        "python_version": "3.10.14",
+        "is_kaggle_kernel": false
+      }
+    },
+    "mlflow": {
+      "desc": null,
+      "value": {
+        "tracking_uri": null,
+        "experiment_name": null
+      }
+    },
+    "no_ckpt": {
+      "desc": null,
+      "value": false
+    },
+    "no_eval": {
+      "desc": null,
+      "value": false
+    },
+    "run_dir": {
+      "desc": null,
+      "value": "/mnt/lawbotica-disk-1/runs/adapter_S_ContrAgreements"
+    },
+    "seq_len": {
+      "desc": null,
+      "value": 8192
+    },
+    "log_freq": {
+      "desc": null,
+      "value": 1
+    },
+    "max_norm": {
+      "desc": null,
+      "value": 1
+    },
+    "ckpt_freq": {
+      "desc": null,
+      "value": 200
+    },
+    "eval_freq": {
+      "desc": null,
+      "value": 200
+    },
+    "max_steps": {
+      "desc": null,
+      "value": 2400
+    },
+    "batch_size": {
+      "desc": null,
+      "value": 1
+    },
+    "checkpoint": {
+      "desc": null,
+      "value": true
+    },
+    "world_size": {
+      "desc": null,
+      "value": 2
+    },
+    "num_ckpt_keep": {
+      "desc": null,
+      "value": 12
+    },
+    "save_adapters": {
+      "desc": null,
+      "value": true
+    },
+    "model_id_or_path": {
+      "desc": null,
+      "value": "/mnt/lawbotica-disk-1/models/MISTRAL_BASE_MODEL/7B-Instruct-v0.3"
+    },
+    "num_microbatches": {
+      "desc": null,
+      "value": 1
+    }
+  }
